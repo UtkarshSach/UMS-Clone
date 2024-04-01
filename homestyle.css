@@ -66,11 +66,12 @@
     grid-template-columns: auto;
     margin-top: 100px; 
     position: fixed;
-    z-index: 5;
+    height: 100%;
+    background-color: #F68121;
 }
 .side1{
     display: flex;
-    height: 120px;
+    height: 100px;
     width: 100px;
     background-color:#F68121;
     justify-content: center;
@@ -78,7 +79,14 @@
     text-decoration: none;
     color:black;
 }
-
+@media  only screen and (max-device-width: 550px){
+    .sidebar{
+        display:none;
+    }
+    .main-content{
+        width: 100vw;
+    }
+}
 .main-content{
     grid-area: main-content;
 }
