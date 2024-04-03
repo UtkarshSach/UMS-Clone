@@ -1,128 +1,122 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+* {
+  margin: 0;
+  padding: 0; }
 
-.main{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100vh;
-    background-color: white;
-    
-}
-.left{
-    width: 50%;
-}
-.logo{
-    width: 100%;
-    height: 100%;
-}
-.right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    background-color: #FBF1F1;
-}
-@media  screen and (max-width:  760px){
-    .left{
-        display: none;
-    }
-    .right{
-        width: 100%;
-    }
-}
-.logo1{
-    width: 65%;
-}
-.container{
-    margin-top: 15px;
-    width: 75%;
-    background-color: white;
-    box-shadow: 0 0 20px #ccc;
-    border-radius: 5px;
-    font-family: Poppins, sans-serif;
-    
-}
-.container1{
-    display: grid;
-    grid-template-columns: auto;
-    padding: 10%;
-    height: 380px;
-    gap: 20px;
-    
-}
-.log{
-    display: flex;
-    border: black;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 1.5em;
-}
-#HeadOffice{
-    height: 50px;
-    width: 80%;
-    font-size: 0.6em;
-    padding: 3%;
-    background-color: #FBF1F1;
-    border: none;
-    border-radius: 5px;
-    color: #535353;
-}
-#username{
-    font-size: 1em;
-    padding: 3.5%;
-    background-color: #FBF1F1;
-    border: none;
-    border-radius: 5px;
-}
-#passwd{
-    font-size: 1em;
-    padding: 3.5%;
-    background-color: #FBF1F1;
-    border: none;
-    border-radius: 5px;
-}
-#das{
-    font-size: 1em;
-    padding: 3.5%;
-    background-color: #FBF1F1;
-    border: none;
-    border-radius: 5px;
-    color: #535353;
-}
-.button{
-    text-align: center;
-    text-decoration: none;
-    font-size: 1em;
-    padding:3.5%;
-    background-color:#F78C30;
-    border: none;
-    border-radius: 5px;
-    color: white;
-}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  background-color: white; }
 
-.forget{
-    text-decoration: none;
-    color: black;
-    float: right;
-    color: #535353;
-}
-.mail{
-    display:grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    font: 16px poppins,sans-serif;
-}
-.mail_icon{
-    height: 38px;
-}
-.student{
-    text-decoration: none;
-    color: black;
-}
+.left {
+  width: 50%; }
+
+.logo {
+  width: 100%;
+  height: 100%; }
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: #FBF1F1; }
+
+@media screen and (max-width: 760px) {
+  .left {
+    display: none; }
+
+  .right {
+    width: 100%; } }
+.logo1 {
+  width: 65%; }
+
+.container {
+  margin-top: 15px;
+  width: 75%;
+  background-color: white;
+  box-shadow: 0 0 20px #ccc;
+  border-radius: 5px;
+  font-family: Poppins, sans-serif; }
+
+.container1 {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10%;
+  height: 380px;
+  gap: 20px; }
+
+.log {
+  display: flex;
+  border: black;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5em; }
+
+#HeadOffice {
+  height: 50px;
+  width: 80%;
+  font-size: 0.6em;
+  padding: 3%;
+  background-color: #FBF1F1;
+  border: none;
+  border-radius: 5px;
+  color: #535353; }
+
+#username {
+  font-size: 1em;
+  padding: 3.5%;
+  background-color: #FBF1F1;
+  border: none;
+  border-radius: 5px; }
+
+#passwd {
+  font-size: 1em;
+  padding: 3.5%;
+  background-color: #FBF1F1;
+  border: none;
+  border-radius: 5px; }
+
+#das {
+  font-size: 1em;
+  padding: 3.5%;
+  background-color: #FBF1F1;
+  border: none;
+  border-radius: 5px;
+  color: #535353; }
+
+.button {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 3.5%;
+  background-color: #F78C30;
+  border: none;
+  border-radius: 5px;
+  color: white; }
+
+.forget {
+  text-decoration: none;
+  color: black;
+  float: right;
+  color: #535353; }
+
+.mail {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font: 16px poppins,sans-serif; }
+
+.mail_icon {
+  height: 38px; }
+
+.student {
+  text-decoration: none;
+  color: black; }
+
+/*# sourceMappingURL=loginstyle.css.map */
