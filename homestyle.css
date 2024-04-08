@@ -251,7 +251,7 @@ hr {
 .course {
   margin: 20px;
   height: 285px;
-  background-color: #28A745;
+  /* background-color: #28A745; */
   overflow: hidden; }
 
 .abc {
@@ -621,7 +621,7 @@ h6 {
   letter-spacing: 0.5px;
   margin: 30px 60px; }
 
-.anime {
+/* .anime {
   margin-bottom: 15px;
   font: 12px sans-serif; }
 
@@ -637,6 +637,6 @@ h6 {
     width: 300%; }
   to {
     margin-left: 0%;
-    width: 100%; } }
+    width: 100%; } } */
 
 /*# sourceMappingURL=homestyle.css.map */
